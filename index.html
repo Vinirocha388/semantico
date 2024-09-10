@@ -9,13 +9,14 @@
 </head>
 
 <body>
+
     <header class="site-header">
-        <h1 class="site--title">Home</h1>
+        <h1 class="site-title">Home</h1>
         <nav class="main-nav">
-            <ul class="nav-list"></ul>
-            <li class="nav-item"><a href="index.html">Home</a></li>
-            <li class="nav-item"><a href="/pages/sobre.html">Sobre</a></li>
-            <li class="nav-item"><a href="/pages/contato.html">Contato</a></li>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./pages/sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="./pages/contato.html" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -23,7 +24,7 @@
     <main class="main-content">
         <article class="article">
             <header class="article-header">
-                <h2 class="article-title">  
+                <h2 class="article-title">
                     Bem Vindo ao Meu Site!
                 </h2>
                 <p class="section-text">
@@ -34,15 +35,15 @@
                 <figure class="image-figure">
                     <img src="./img/totoro.jpg" alt="Totoro" class="article-image">
                     <figcaption class="image-caption">
-                        Totoro
+                        <strong>Totoro</strong>
                     </figcaption>
                 </figure>
-            <audio controls class="audio-player">
-                <source src="./media/audio.mp3" type="audio/mp3">
+                <audio controls class="audio-player">
+                    <source src="./media/audio.mp3" type="audio/mp3">
                     Seu navegador não suporte o elemento
-                <code>audio</code>.
-            </audio>
-        </section>
+                    <code>audio</code>.
+                </audio>
+            </section>
             <footer class="article-footer">
                 <p class="section-text">
                     Texto de Rodapé do Artigo
@@ -51,7 +52,7 @@
         </article>
         <aside class="sidebar">
             <h2 class="sidebar-title">
-                Informaçõe Aicionais
+                Informações Adicionais
             </h2>
             <p class="section-text">
                 Texto Aleatório na Aula de Marcação Web
@@ -65,11 +66,12 @@
                 Autor: Vinícius Rocha
             </p>
             <p class="author-email">
-                Email: <a href="mailto:vinicius.a.rocha8@aluno.senai.br" class="email.link">vinicius.a.rocha8@aluno.senai.br</a>
+                Email: <a href="mailto:vinicius.a.rocha8@aluno.senai.br" class="email-link">vinicius.a.rocha8@aluno.senai.br</a>
             </p>
         </address>
         <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
     </footer>
+
 </body>
 
 </html>
